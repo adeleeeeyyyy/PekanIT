@@ -28,8 +28,8 @@ function getData() {
 function addData() {
   var dataRef = database.ref('data/');
   dataRef.set({
-    name: 'John Doe',
-    email: 'johndoe@example.com',
+    name: 'John Doe, AMel',
+    email: 'johndoe@example.com, ohaha@gmail.com',
   });
 }
 
